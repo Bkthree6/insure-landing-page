@@ -13,11 +13,13 @@ function Header() {
     });
 
     return (
-        <header className="header">
-            <div className="content-wrapper header-container">
+        <header className="content-wrapper header">
+            <div className="header-container">
                 <img src={logo} alt="Insure logo"></img>
             </div> 
+            
             { width <= 699 ? <MobileNav /> : <DesktopNav />}
+            
         </header>
     )
     

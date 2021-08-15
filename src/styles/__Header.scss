@@ -1,3 +1,11 @@
-.header-container {
-    border: 1px solid red;
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 699px) {
+    .header {
+        justify-content: space-between;
+    }
 }

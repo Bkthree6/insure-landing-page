@@ -1,0 +1,21 @@
+.desktop-nav {
+    &__links {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        align-items: center;
+    }
+    
+    &__link {
+        a {
+            text-decoration: none;
+            color: hsl(216, 30%, 68%);
+        }
+        
+    }
+    &__btn {
+        background-color: transparent;
+        border: 1px solid purple;
+    }
+    
+}
